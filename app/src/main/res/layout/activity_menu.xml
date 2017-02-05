@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ase.aseapp.MenuActivity">
+
+    <Button
+        android:text="Generate QR CODE for Attendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonQr"
+        android:layout_weight="1.00"
+        android:textStyle="bold"
+        android:onClick="switchWindow"
+        />
+
+    <Button
+        android:text="Generate QR Code for Presentation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBonus"
+        android:layout_weight="1.15"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+
